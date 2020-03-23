@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Server Todo List</title>
+  <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-firestore.js"></script>
+</head>
+
+<body>
+  <h1>Todo List</h1>
+  <input type="text" placeholder="Enter new todo" id="new-todo" />
+  <button id="add-btn"></button>
+  <br>
+  <br>
+  <table id="todo-list" border="1"></table>
+  <br>
+  <button id="complete-all">Complete All</button>
+  <button id="delete-all">Delete All</button>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
